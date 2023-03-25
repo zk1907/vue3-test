@@ -51,6 +51,7 @@ const props = defineProps({
     }
 })
 
+console.log('1111111111111')
 const emit = defineEmits(['changeRun'])
 const dealParam = reactive({
     instId:'ETH-USDT',
